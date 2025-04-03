@@ -41,12 +41,17 @@ ffmpeg -version || sudo apt install ffmpeg  # Для Ubuntu/Debian
 --vad-filter    True	        Фильтрация фонового шума
 
 ## Поддерживаемые языки
-Код	Язык	Код	Язык
-ru	Русский	en	Английский
-es	Испанский	fr	Французский
-de	Немецкий	zh	Китайский
-ja	Японский	ko	Корейский
-ar	Арабский	hi	Хинди
+
+ru	Русский	
+en	Английский
+es	Испанский	
+fr	Французский
+de	Немецкий	
+zh	Китайский
+ja	Японский	
+ko	Корейский
+ar	Арабский	
+hi	Хинди
 
 Полный список языков:
 https://github.com/openai/whisper/blob/main/whisper/tokenizer.py

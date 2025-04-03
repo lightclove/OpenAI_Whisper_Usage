@@ -77,11 +77,11 @@ python transcribe.py video.mp4 --device cuda --lang ru
 python transcribe.py podcast.flac --device cpu --lang en --output episode_42.txt
 ```
 ### Мультиязычная транскрипция:
-# Испанский
+### Испанский
 ```bash
 python transcribe.py audio_es.mp3 --lang es
 ```
-# Китайский (упрощенный):
+### Китайский (упрощенный):
 ```bash
 python transcribe.py meeting_record.wav --lang zh
 ```

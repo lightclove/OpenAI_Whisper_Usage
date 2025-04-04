@@ -26,7 +26,7 @@
 ### Установка
 ```bash
 # Базовые зависимости
-pip install torch>=2.1.0 whisperx>=3.0.0
+pip install torch whisperx
 ```
 ### Проверка FFmpeg (требуется для MP3/MP4)
 ```bash
@@ -118,8 +118,8 @@ for file in *.wav; do
     python transcribe.py "$file" --output "${file%.*}.srt"
 done
 ```
-###  Контроль качества звука:
-# С фильтрацией шумов (по умолчанию)
+##  Контроль качества звука:
+### С фильтрацией шумов (по умолчанию)
 ```bash
 python transcribe.py noisy_audio.wav --output cleaned_subtitles.srt
 ```

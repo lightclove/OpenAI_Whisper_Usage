@@ -33,25 +33,40 @@ pip install torch>=2.1.0 whisperx>=3.0.0
 ffmpeg -version || sudo apt install ffmpeg  # Для Ubuntu/Debian
 ```
 ## Параметры запуска
---output	    subtitles.srt	Путь для выходного файла
---text-only	    False	        Экспорт в текстовый формат
---device	    cuda	        Устройство обработки (cpu/cuda)
---lang	        auto	        Язык аудио (ru/en/es/fr/zh и др.)
---model	        large-v3	    Модель Whisper (tiny/small/medium/large-v3)
---vad-filter    True	        Фильтрация фонового шума
+
+- --output	    subtitles.srt	Путь для выходного файла
+
+- --text-only	    False	        Экспорт в текстовый формат
+
+- --device	    cuda	        Устройство обработки (cpu/cuda)
+
+- --lang	        auto	        Язык аудио (ru/en/es/fr/zh и др.)
+
+- --model	        large-v3	    Модель Whisper (tiny/small/medium/large-v3)
+
+- --vad-filter    True	        Фильтрация фонового шума
 
 ## Поддерживаемые языки
 
-ru	Русский	
-en	Английский
-es	Испанский	
-fr	Французский
-de	Немецкий	
-zh	Китайский
-ja	Японский	
-ko	Корейский
-ar	Арабский	
-hi	Хинди
+- ru	Русский	
+
+- en	Английский
+
+- es	Испанский	
+
+- fr	Французский
+
+- de	Немецкий	
+
+- zh	Китайский
+
+- ja	Японский	
+
+- ko	Корейский
+
+- ar	Арабский	
+
+- hi	Хинди
 
 Полный список языков:
 https://github.com/openai/whisper/blob/main/whisper/tokenizer.py
